@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title> Find My Whey - Ofertas</title>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100,
+            callback: function(box) {
+                console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+            }
+        });
+        wow.init();
+        document.getElementById('moar').onclick = function() {
+            var section = document.createElement('section');
+            section.className = 'section--purple wow fadeInDown';
+            this.parentNode.insertBefore(section, this);
+        };
+    </script>
+</head>
+
+<body style="background: white;">
+
+    <header>
+        <!-- inicio Cabecalho -->
+        <nav class="navbar navbar-expand-sm navbar-light" style="background: #010103;">
+            <div class="container">
+
+                <a href="#" class="navbar-brand mt-1">
+                    <h1><span style="color:white;">Find My Whey</span></h1>
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span style="color: white; font-size: 1.3em;"><i class="fas fa-align-justify"></i> Menu</span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-3">
+                            <div class="searchbar">
+                                <input class="search_input" type="text" name="" placeholder="Search...">
+                                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-4 mt-2">
+                            <a href="index.html" class="menu">Home</a>
+                        </li>
+                        <li class="nav-item dropdown mr-4 mt-2">
+                            <a href="" class="dropdown-toggle navbar-light" data-toggle="dropdown" style="color: white;">Produtos</a>
+                            <ul class="dropdown-menu" style="margin-top: -18px;">
+                                <li><a href="" class="dropdown-item navbar-light">Roupas</a></li>
+                                <li><a href="" class="dropdown-item navbar-light">Suprimentos</a></li>
+                                <li><a href="" class="dropdown-item navbar-light">Acessórios</a></li>
+                                <li><a href="" class="dropdown-item navbar-light">Pesos</a></li>
+                                <li><a href="" class="dropdown-item navbar-light">Sapatos</a></li>
+                                <li>
+                                    <a href="" class="dropdown-item navbar-light"></a>
+                                </li>
+                                <li><a href="" class="dropdown-item navbar-light">Academias</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mr-4 mt-2">
+                            <a href=".html" class="menu">Ofertas</a>
+                        </li>
+                        <li class="nav-item mr-2 mt-2">
+                            <a href="carrinho.html" class="menu">Carrinho</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="btn btn-outline-light ml-4">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/fim Cabecalho -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <section id="home">
+        <div id="slider-animation" class="carousel slide" data-ride="carousel">
+
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/anuncio2.jpeg" alt="Los Angeles">
+                    <div class="text-box">
+                        <!--<h2 class="wow slideInRight" data-wow-duration="2s">This is heading text</h2>
+                        <p class="wow slideInLeft" data-wow-duration="2s">There is now an abundance of readable
+                            dummy
+                            texts. These are usually used when a text is required purely to fill a space. </p>-->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/anuncio1.jpeg" alt="Los Angeles">
+                    <div class="text-box">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-6">
+                                <!--<h2 class="wow fadeInUp" data-wow-duration="4s">This is heading text</h2>
+                                <p class="wow fadeInUp" data-wow-duration="2s">There is now an abundance of readable
+                                    dummy texts. These are usually used when a text is required purely to fill a
+                                    space.
+                                </p>-->
+                            </div>
+                            <div class="col-md-6 wow slideInLeft" data-wow-duration="4s">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/anuncio2.jpeg" alt="Chicago">
+                    <div class="text-box">
+                        <div class="row align-items-center">
+
+                            <div class="col-md-6  wow slideInRight" data-wow-duration="4s">
+                                <!--<h2>This is heading text</h2>
+                                <p>There is now an abundance of readable dummy texts. These are usually used when a
+                                    text
+                                    is required purely to fill a space. </p>-->
+                            </div>
+                            <div class="col-md-6  wow slideInLeft" data-wow-duration="4s">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev seta" href="#slider-animation" data-slide="prev">
+                <span class="carousel-control-prev-icon" style="margin-top: 250px;"></span>
+            </a>
+            <a class="carousel-control-next seta" href="#slider-animation" data-slide="next">
+                <span class="carousel-control-next-icon" style="margin-top: 250px;"></span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+
+    <div class="container">
+        <h3 class="h3">Ofertas do dia </h3>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r9.png">
+                            <img class="pic-2" src="imagens/r10.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-40%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r3.png">
+                            <img class="pic-2" src="imagens/r4.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-discount-label">-22%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                        <div class="price">
+                            $17.60
+                            <span>$20.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r5.png">
+                            <img class="pic-2" src="imagens/r6.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-55%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r7.png">
+                            <img class="pic-2" src="imagens/r8.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-35%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/s1.jpeg">
+                            <img class="pic-2" src="imagens/s1.jpeg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-70%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/s1.jpeg">
+                            <img class="pic-2" src="imagens/s1.jpeg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-discount-label">-12%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                        <div class="price">
+                            $17.60
+                            <span>$20.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/s1.jpeg">
+                            <img class="pic-2" src="imagens/s1.jpeg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/s1.jpeg">
+                            <img class="pic-2" src="imagens/s1.jpeg">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r9.png">
+                            <img class="pic-2" src="imagens/r10.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r3.png">
+                            <img class="pic-2" src="imagens/r4.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-discount-label">-12%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                        <div class="price">
+                            $17.60
+                            <span>$20.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r5.png">
+                            <img class="pic-2" src="imagens/r6.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r7.png">
+                            <img class="pic-2" src="imagens/r8.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r7.png">
+                            <img class="pic-2" src="imagens/r8.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r11.png">
+                            <img class="pic-2" src="imagens/r12.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-discount-label">-12%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                        <div class="price">
+                            $17.60
+                            <span>$20.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r5.png">
+                            <img class="pic-2" src="imagens/r6.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r9.png">
+                            <img class="pic-2" src="imagens/r10.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r9.png">
+                            <img class="pic-2" src="imagens/r10.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r3.png">
+                            <img class="pic-2" src="imagens/r4.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-discount-label">-12%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                        <div class="price">
+                            $17.60
+                            <span>$20.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r5.png">
+                            <img class="pic-2" src="imagens/r6.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="product-grid4">
+                    <div class="product-image4">
+                        <a href="#">
+                            <img class="pic-1" src="imagens/r7.png">
+                            <img class="pic-2" src="imagens/r8.png">
+                        </a>
+                        <ul class="social">
+                            <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                            <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                            <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        </ul>
+                        <span class="product-new-label">New</span>
+                        <span class="product-discount-label">-10%</span>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                        <div class="price">
+                            $14.40
+                            <span>$16.00</span>
+                        </div>
+                        <a class="add-to-cart" href="">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="btn btn-outline-primary mt-3 mb-3" style="margin-left: 650px;">
+            <a href="">Mais</a>
+        </button>
+    </div>
+
+
+
+    <footer>
+        <div class=" container">
+            <div class="row">
+                <div class="col-md-2">
+                    <span style="color:white; font-size: 1.5em">Find My Whey</span>
+                    </h1>
+                </div>
+                <div class="col-md-2">
+                    <h4>company</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Novidades</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>comunidades</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Varejistas</a></li>
+                        <li><a href="">Desenvolvedores</a></li>
+                        <li><a href="">Marcas</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>links uteis</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Ajuda</a></li>
+                        <li>
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href=""><img src="imagens/facebook.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imagens/twitter.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imagens/instagram.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
